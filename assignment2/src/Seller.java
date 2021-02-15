@@ -6,6 +6,7 @@ public class Seller<V> extends SellerBase<V> {
     public Seller (int sleepTime, int catalogSize, Lock lock, Condition full, Condition empty, PriorityQueue<V> catalog, Queue<V> inventory) {
         //TODO Complete the constructor method by initializing the attibutes
         // ...
+    	//
         this.setSleepTime(sleepTime);
     	
     	this.lock=lock;
