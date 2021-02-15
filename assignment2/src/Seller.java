@@ -7,6 +7,7 @@ public class Seller<V> extends SellerBase<V> {
         //TODO Complete the constructor method by initializing the attibutes
         // ...
     	//
+    	//
         this.setSleepTime(sleepTime);
     	
     	this.lock=lock;
